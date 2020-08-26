@@ -1,0 +1,915 @@
+.menu-item.active .submenu-wrapper {
+  display: block;
+}
+
+.menu-item.active .submenu-border {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #FFF;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+.menu-item.todo-shopping {
+  width: 215px;
+}
+/* line 83, ../../src/sass/components/_menu.scss */
+.menu-item.todo-shopping .menu-item-link {
+  line-height: 57px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* line 88, ../../src/sass/components/_menu.scss */
+.menu-item.todo-shopping .icon-wm-chevron-sign-down {
+  color: #f6b428;
+  margin-right: 5px;
+}
+/* line 95, ../../src/sass/components/_menu.scss */
+.menu-item.eletronicos .icon {
+  background-position: 0 -5666px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 102, ../../src/sass/components/_menu.scss */
+.menu-item.eletronicos.active .icon {
+  background-position: 0 -5520px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 112, ../../src/sass/components/_menu.scss */
+.menu-item.eletrodomesticos .icon {
+  background-position: 0 -4728px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 119, ../../src/sass/components/_menu.scss */
+.menu-item.eletrodomesticos.active .icon {
+  background-position: 0 -4539px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 129, ../../src/sass/components/_menu.scss */
+.menu-item.eletroportateis .icon {
+  background-position: 0 -4159px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 136, ../../src/sass/components/_menu.scss */
+.menu-item.eletroportateis.active .icon {
+  background-position: 0 -4045px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 146, ../../src/sass/components/_menu.scss */
+.menu-item.informatica .icon {
+  background-position: 0 -5696px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 153, ../../src/sass/components/_menu.scss */
+.menu-item.informatica.active .icon {
+  background-position: 0 -5578px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 163, ../../src/sass/components/_menu.scss */
+.menu-item.esporte-e-fitness .icon {
+  background-position: 0 -3081px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 170, ../../src/sass/components/_menu.scss */
+.menu-item.esporte-e-fitness.active .icon {
+  background-position: 0 -2627px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 180, ../../src/sass/components/_menu.scss */
+.menu-item.beleza-e-saude .icon {
+  background-position: 0 -4309px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 187, ../../src/sass/components/_menu.scss */
+.menu-item.beleza-e-saude.active .icon {
+  background-position: 0 -3987px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 197, ../../src/sass/components/_menu.scss */
+.menu-item.celulares-e-telefones .icon {
+  background-position: 0 -5812px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 204, ../../src/sass/components/_menu.scss */
+.menu-item.celulares-e-telefones.active .icon {
+  background-position: 0 -5754px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 214, ../../src/sass/components/_menu.scss */
+.menu-item.bebes-e-criancas .icon {
+  background-position: 0 -5636px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 221, ../../src/sass/components/_menu.scss */
+.menu-item.bebes-e-criancas.active .icon {
+  background-position: 0 -5490px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 231, ../../src/sass/components/_menu.scss */
+.menu-item.cameras .icon {
+  background-position: 0 -4509px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 238, ../../src/sass/components/_menu.scss */
+.menu-item.cameras.active .icon {
+  background-position: 0 -4451px;
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+/* line 248, ../../src/sass/components/_menu.scss */
+.menu-item.seasonal div {
+  margin-top: 10px;
+}
+
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+  /* line 254, ../../src/sass/components/_menu.scss */
+  .menu-item {
+    width: 9.2%;
+  }
+}
+@media (min-width: 83.4375em) {
+  /* line 254, ../../src/sass/components/_menu.scss */
+  .menu-item {
+    width: 9.2%;
+  }
+}
+
+/* line 263, ../../src/sass/components/_menu.scss */
+.submenu-wrapper {
+  display: none;
+  height: 520px;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 57px;
+  padding-top: 4px;
+  z-index: 10;
+  width: 100%;
+}
+
+/* line 2, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .submenu-border {
+  position: relative;
+}
+/* line 120, ../../src/sass/mixins/_mixins.scss */
+.todo-shopping .submenu-border:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -20px;
+  left: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+/* line 145, ../../src/sass/mixins/_mixins.scss */
+.todo-shopping .submenu-border:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -19px;
+  left: 20px;
+  bottom: auto;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+/* line 5, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .separator {
+  border: 0;
+  height: 1px;
+  background: #D7D7D7;
+  min-width: 200px;
+  float: left;
+  width: 100%;
+}
+/* line 13, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-left-wrapper {
+  height: 460px;
+  padding-left: 20px;
+  width: 23.45679%;
+  float: left;
+  margin-right: 2.05761%;
+}
+/* line 16, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-left-wrapper .separator {
+  left: 90%;
+}
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+  /* line 13, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-left-wrapper {
+    width: 22.5%;
+    float: left;
+    margin-right: 1.08696%;
+  }
+  /* line 22, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-left-wrapper .title {
+    font-size: 26px;
+  }
+  /* line 26, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-left-wrapper .item a {
+    font-size: 18px;
+  }
+}
+@media (min-width: 83.4375em) {
+  /* line 13, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-left-wrapper {
+    width: 22.5%;
+    float: left;
+    margin-right: 1.08696%;
+  }
+  /* line 33, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-left-wrapper .title {
+    font-size: 26px;
+  }
+  /* line 37, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-left-wrapper .item a {
+    font-size: 18px;
+  }
+}
+/* line 43, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-right-wrapper {
+  height: 460px;
+  padding-right: 20px;
+  width: 23.45679%;
+  float: right;
+  margin-right: 0;
+}
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+  /* line 43, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-right-wrapper {
+    width: 22.5%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 49, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-right-wrapper .title {
+    font-size: 26px;
+  }
+  /* line 53, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-right-wrapper .item a {
+    font-size: 18px;
+  }
+}
+@media (min-width: 83.4375em) {
+  /* line 43, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-right-wrapper {
+    width: 22.5%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 60, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-right-wrapper .title {
+    font-size: 26px;
+  }
+  /* line 64, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-right-wrapper .item a {
+    font-size: 18px;
+  }
+}
+/* line 70, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-center-wrapper {
+  height: 460px;
+  width: 48.97119%;
+  float: left;
+  margin-right: 2.05761%;
+}
+/* line 72, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-center-wrapper .list {
+  width: 50%;
+  min-width: 234px;
+}
+/* line 76, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-center-wrapper .separator {
+  width: 40%;
+}
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+  /* line 70, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-center-wrapper {
+    width: 52.82609%;
+    float: left;
+    margin-right: 1.08696%;
+  }
+  /* line 83, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-center-wrapper .item a {
+    padding-top: 7px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 83.4375em) {
+  /* line 70, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-center-wrapper {
+    width: 52.82609%;
+    float: left;
+    margin-right: 1.08696%;
+  }
+  /* line 92, ../../src/sass/components/_menu-todo-shopping.scss */
+  .todo-shopping .menu-center-wrapper .item a {
+    padding-top: 7px;
+    font-size: 18px;
+  }
+}
+/* line 99, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .list {
+  padding: 15px 5px 20px 5px;
+  float: left;
+}
+/* line 104, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .auto-e-pneus .title {
+  color: #265D95;
+}
+/* line 109, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .tecnologia .title {
+  color: #BA3737;
+}
+/* line 114, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .casa .title {
+  color: #76A617;
+}
+/* line 119, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .cultura-e-lazer .title {
+  color: #FE9003;
+}
+/* line 124, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .bebes-e-criancas .title {
+  color: #67A890;
+}
+/* line 129, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .moda-e-estilo .title {
+  color: #6E5CC0;
+}
+/* line 134, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .dicas-ideias .title {
+  color: #666666;
+}
+/* line 138, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .title {
+  font-size: 23px;
+  padding-bottom: 9px;
+}
+/* line 142, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item {
+  min-height: 40px;
+}
+/* line 144, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item a {
+  padding: 8px 0 7px 42px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+  color: #1A75CE;
+  position: relative;
+}
+/* line 152, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item a:hover {
+  color: #f37b20;
+}
+/* line 157, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-icon {
+  width: 36px;
+  height: 36px;
+  margin-right: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 165, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-top-wrapper {
+  height: inherit;
+  overflow: hidden;
+}
+/* line 169, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-bottom-wrapper {
+  position: absolute;
+  bottom: 18px;
+  height: 32px;
+  width: 100%;
+  text-align: center;
+  line-height: 32px;
+  padding: 0 20px;
+}
+/* line 177, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .menu-bottom-wrapper ul {
+  width: 600px;
+  margin: 0 auto;
+}
+/* line 182, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .border {
+  border: 1px #D7D7D7;
+  border-style: solid none;
+}
+/* line 186, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .bottom-item {
+  display: inline-block;
+}
+/* line 187, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .bottom-item a {
+  color: #999;
+}
+/* line 189, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .bottom-item a:hover {
+  color: #f37b20;
+}
+/* line 194, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .bottom-item.last {
+  float: right;
+}
+/* line 197, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .bottom-item:first-child {
+  float: left;
+}
+/* line 201, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .bottom-item.spacing {
+  margin-right: 37px;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-automotivo .item-icon {
+  background-position: 0 -2450px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-pneus .item-icon {
+  background-position: 0 -814px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-cameras .item-icon {
+  background-position: 0 -1972px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-eletronicos .item-icon {
+  background-position: 0 -2819px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-games .item-icon {
+  background-position: 0 -2010px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-informatica .item-icon {
+  background-position: 0 -2657px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-telefonia .item-icon {
+  background-position: 0 -2915px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-tablets .item-icon {
+  background-position: 0 -2765px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-cameba .item-icon {
+  background-position: 0 -3141px;
+  height: 37px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-moveis-decoracao .item-icon {
+  background-position: 0 -2412px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-eletrodomesticos .item-icon {
+  background-position: 0 -2268px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-eletroportateis .item-icon {
+  background-position: 0 -2124px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-ferramentas .item-icon {
+  background-position: 0 -1232px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-casa-seguranca .item-icon {
+  background-position: 0 -2048px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-pet-shop .item-icon {
+  background-position: 0 -1520px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-produtos-sustentaveis .item-icon {
+  background-position: 0 -1800px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-instrumentos-musicais .item-icon {
+  background-position: 0 -1762px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-revelacao-digital .item-icon {
+  background-position: 0 -1694px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-ud .item-icon {
+  background-position: 0 -2727px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-dvds .item-icon {
+  background-position: 0 -1656px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-esportes .item-icon {
+  background-position: 0 -1384px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-livros .item-icon {
+  background-position: 0 -2374px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-papelaria .item-icon {
+  background-position: 0 -3017px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-viagens .item-icon {
+  background-position: 0 -2162px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-bebes .item-icon {
+  background-position: 0 -2589px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-brinquedos .item-icon {
+  background-position: 0 -2306px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-beleza .item-icon {
+  background-position: 0 -1876px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-moda .item-icon {
+  background-position: 0 -2520px;
+  height: 37px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-relogios .item-icon {
+  background-position: 0 -1194px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-adega .item-icon {
+  background-position: 0 -1838px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+/* line 241, ../../src/sass/components/_menu-todo-shopping.scss */
+.todo-shopping .item-ideias-e-muito-mais .item-icon {
+  background-position: 0 -2230px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+
+/* line 2, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default.submenu-wrapper {
+  height: 423px;
+  width: 275px;
+  left: -3px;
+}
+/* line 8, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .submenu-border {
+  position: relative;
+}
+/* line 120, ../../src/sass/mixins/_mixins.scss */
+.submenu-default .submenu-border:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -20px;
+  left: 14px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+/* line 145, ../../src/sass/mixins/_mixins.scss */
+.submenu-default .submenu-border:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -19px;
+  left: 124px;
+  bottom: auto;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+/* line 12, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default a {
+  color: #1A75CE;
+}
+/* line 14, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default a:hover {
+  color: #f37b20;
+}
+/* line 19, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .categories {
+  height: 364px;
+  width: 242px;
+  padding: 25px 0 0 20px;
+  overflow: hidden;
+  float: left;
+}
+/* line 27, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .picture {
+  float: right;
+  margin: 15px;
+  width: 333px;
+  height: 333px;
+}
+/* line 32, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .picture img {
+  display: block;
+  width: 333px;
+  height: 333px;
+}
+/* line 39, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .item {
+  height: 33px;
+  line-height: 33px;
+}
+/* line 44, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .item a {
+  background-color: transparent;
+}
+/* line 48, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .item:before {
+  margin-right: 17px;
+  content: " ";
+  display: block;
+  background: #f37b20;
+  width: 14px;
+  height: 14px;
+  margin-top: 9.5px;
+  float: left;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+  left: 8px;
+  position: relative;
+}
+/* line 64, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .item:hover a {
+  background-color: #f37b20;
+  display: block;
+  color: #FFF;
+}
+/* line 70, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .item:hover:before {
+  margin-right: 17px;
+  content: " ";
+  display: block;
+  background: #FFF;
+  width: 14px;
+  height: 14px;
+  margin-top: 9.5px;
+  float: left;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+  left: 8px;
+  position: relative;
+}
+/* line 87, ../../src/sass/components/_menu-submenus.scss */
+.submenu-default .footer {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: block;
+  border-top: solid 1px #EAE8E8;
+}
+
+/* line 101, ../../src/sass/components/_menu-submenus.scss */
+.submenu-align-right .submenu-border {
+  position: relative;
+}
+/* line 120, ../../src/sass/mixins/_mixins.scss */
+.submenu-align-right .submenu-border:before {
+  content: "\00a0";
+  display: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -20px;
+  left: 4px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+/* line 145, ../../src/sass/mixins/_mixins.scss */
+.submenu-align-right .submenu-border:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -19px;
+  left: 47px;
+  bottom: auto;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+/* line 104, ../../src/sass/components/_menu-submenus.scss */
+.submenu-align-right.submenu-wrapper {
+  left: -3px;
+}
+
+/* line 1, ../../src/sass/globals/_dropdown.scss */
+.dropdown {
+  background-color: #FFF;
+  border: 1px solid #B2B2B2;
+  border-radius: 3px;
+  display: none;
+  width: 321px;
+  padding: 0 0 20px 0;
+  position: absolute;
+  z-index: 50;
+  top: 60px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+/* line 12, ../../src/sass/globals/_dropdown.scss */
+.dropdown.right {
+  left: -260px;
+}
+/* line 15, ../../src/sass/globals/_dropdown.scss */
+.dropdown.right .dropdown-position:after,
+.dropdown.right .dropdown-position:before {
+  left: 89%;
+}
+/* line 19, ../../src/sass/globals/_dropdown.scss */
+.dropdown .btn {
+  margin-top: 20px;
+}
+/* line 23, ../../src/sass/globals/_dropdown.scss */
+.dropdown.notification {
+  width: 372px;
+  left: -306px;
+}
+
+/* line 29, ../../src/sass/globals/_dropdown.scss */
+.dropdown-position {
+  position: relative;
+  position: relative;
+}
+/* line 120, ../../src/sass/mixins/_mixins.scss */
+.dropdown-position:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -20px;
+  left: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #b2b2b2 transparent;
+}
+/* line 145, ../../src/sass/mixins/_mixins.scss */
+.dropdown-position:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -19px;
+  left: 20px;
+  bottom: auto;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}

@@ -1,0 +1,385 @@
+
+
+/* line 36, ../../src/sass/department.scss */
+.menu-left {
+  width: 23.45679%;
+  float: left;
+  margin-right: 2.05761%;
+ background:#fff;
+}
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+  /* line 36, ../../src/sass/department.scss */
+  .menu-left {
+    width: 19.13043%;
+    float: left;
+    margin-right: 1.08696%;
+background:#fff;
+  }
+}
+@media (min-width: 83.4375em) {
+  /* line 36, ../../src/sass/department.scss */
+  .menu-left {
+    width: 19.13043%;
+    float: left;
+    margin-right: 1.08696%;
+	background:#fff;
+  }
+}
+
+
+/* line 1, ../../src/sass/components/_breadcrumb.scss */
+.breadcrumb {
+  padding: 6px 13px;
+  clear: both;
+}
+/* line 4, ../../src/sass/components/_breadcrumb.scss */
+.breadcrumb .home {
+    background-position:0 -1642px;
+    color: transparent;
+    display: inline-block;
+    font: 0px/0 serif;
+    height: 36px;
+    margin-right: 15px;
+    position: relative;
+    text-shadow: none;
+    top: 6px;
+    width: 36px;
+}
+/* line 13, ../../src/sass/components/_breadcrumb.scss */
+ 
+/* line 16, ../../src/sass/components/_breadcrumb.scss */
+.breadcrumb .home a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* line 24, ../../src/sass/components/_breadcrumb.scss */
+.breadcrumb-item {
+  display: inline-block;
+}
+/* line 26, ../../src/sass/components/_breadcrumb.scss */
+ 
+
+/* line 33, ../../src/sass/components/_breadcrumb.scss */
+.breadcrumb-link {
+  color: #1a75ce;
+  float: left;
+  padding: 0 5px;
+}
+/* line 37, ../../src/sass/components/_breadcrumb.scss */
+.breadcrumb-link:hover {
+  color: #f37b20;
+}
+
+/* line 42, ../../src/sass/components/_breadcrumb.scss */
+.breadcrumb-main {
+  float: left;
+  font-weight: 400;
+} 
+.breadcrumb {
+  float: left;
+}
+/* line 3, ../../src/sass/components/_department-breadcrumb.scss */
+.department-breadcrumb .breadcrumb-item {
+  float: left;
+  margin-top: 6px;
+}
+/* line 7, ../../src/sass/components/_department-breadcrumb.scss */
+.department-breadcrumb .breadcrumb-item.home {
+  margin-top: 0;
+}
+/* line 11, ../../src/sass/components/_department-breadcrumb.scss */
+.department-breadcrumb .breadcrumb-item:before {
+  margin-top: 6px;
+}
+
+/* line 1506, sprites/global/*.png 
+.global-sprite, .mfp-close-btn-in .mfp-close, .logo-link, .login .wrapper a:hover .icon, .login .icon, .contact .contact-link.active .contact-icon, .contact .contact-link:hover .contact-icon, .contact-icon, .cart-icon, .menu-item.eletronicos .icon, .menu-item.eletronicos.active .icon, .menu-item.eletrodomesticos .icon, .menu-item.eletrodomesticos.active .icon, .menu-item.eletroportateis .icon, .menu-item.eletroportateis.active .icon, .menu-item.informatica .icon, .menu-item.informatica.active .icon, .menu-item.esporte-e-fitness .icon, .menu-item.esporte-e-fitness.active .icon, .menu-item.beleza-e-saude .icon, .menu-item.beleza-e-saude.active .icon, .menu-item.celulares-e-telefones .icon, .menu-item.celulares-e-telefones.active .icon, .menu-item.bebes-e-criancas .icon, .menu-item.bebes-e-criancas.active .icon, .menu-item.cameras .icon, .menu-item.cameras.active .icon,   .close-dropdown, .blue-star-icon, .profile .shipping-address .icon, .profile .status-aguardando-coleta, .profile .status-aguardando-pagamento, .profile .status-coleta-realizada, .profile .status-em-processo-de-devolucao-para-o-estoque, .profile .status-nota-fiscal-emitida, .profile .status-pagamento-aprovado, .profile .status-pagamento-rejeitado, .profile .status-pedido-a-caminho, .profile .status-pedido-cancelado, .profile .status-pedido-entregue, .profile .status-pedido-incluido, .profile .status-postagem-solicitada, .profile .status-reembolso-estorno-processado-com-sucesso, .profile .status-saldo-pre-aprovado, .alert-dismissable .close, .search-icon, .go-to-top-container .go-to-top, .self-help-icon, .self-help-form .search-icon, .icon-chat, .icon-email, .icon-skype, .self-help-email form .email-content span.sort-selector-icon, .links-social .facebook-icon, .links-social .facebook-icon:hover, .links-social .instagram-icon, .links-social .instagram-icon:hover, .links-social .twitter-icon, .links-social .twitter-icon:hover, .links-social .google-plus-icon, .links-social .google-plus-icon:hover, .logo-footer, .flag-br, .flag-us, .selector-icon, .links-item a .icon-4373, .links-item a .icon-2903, .links-item a .icon-580, .links-item a .icon-1, .links-item a .icon-77, .links-item a .icon-1165, .links-item a .icon-205, .links-item a .icon-1249, .links-item a .icon-144, .links-item a .icon-317, .links-item a .icon-169, .links-item a .icon-345, .links-item a .icon-889, .links-item a .icon-401, .links-item a .icon-247, .links-item a .icon-2201, .links-item a .icon-5235, .links-item a .icon-4901, .links-item a .icon-755, .links-item a .icon-4423, .links-item a .icon-1916, .links-item a .icon-431, .links-item a .icon-3155, .links-item a .icon-44, .links-item a .icon-650, .links-item a .icon-dvds, .links-item a .icon-papelaria, .links-item a .icon-viagens, .links-item a .icon-revelacao, .links-item a:hover .icon-4373, .links-item a:hover .icon-2903, .links-item a:hover .icon-580, .links-item a:hover .icon-1, .links-item a:hover .icon-77, .links-item a:hover .icon-1165, .links-item a:hover .icon-205, .links-item a:hover .icon-1249, .links-item a:hover .icon-144, .links-item a:hover .icon-317, .links-item a:hover .icon-169, .links-item a:hover .icon-345, .links-item a:hover .icon-889, .links-item a:hover .icon-401, .links-item a:hover .icon-247, .links-item a:hover .icon-2201, .links-item a:hover .icon-5235, .links-item a:hover .icon-4901, .links-item a:hover .icon-755, .links-item a:hover .icon-4423, .links-item a:hover .icon-1916, .links-item a:hover .icon-431, .links-item a:hover .icon-3155, .links-item a:hover .icon-44, .links-item a:hover .icon-650, .links-item a:hover .icon-dvds, .links-item a:hover .icon-papelaria, .links-item a:hover .icon-viagens, .links-item a:hover .icon-revelacao, .amex, .visa, .mastercard, .diners-club, .hipercard, .elo, .itau, .bradesco, .boleto, .site-blindado, .norton, .ebit, .crianca-segura, .store-locator-icon, .telesales-icon, .more-about-item a:hover .pin-icon, .pin-icon, .topbar-search .list-suggestions .item .icon, .topbar-search .list-suggestions .item.autocomplete-suggestion.autocomplete-selected .icon, .breadcrumb .home, .breadcrumb-item:before, .shelf-container .qtd-colors .qtd, .arrow-big .owl-prev, .arrow-big .owl-next, .arrow-small .owl-prev, .arrow-small .owl-next {
+    background: url("//static.wmobjects.com.br/webstore/images/sprites/global-s980a232962.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+*/
+/* line 17, ../../src/sass/components/_department-breadcrumb.scss */
+.department-breadcrumb .department-link {
+  color: #f37b20;
+  font-size: 32px;
+  line-height: 32px;
+}
+.department-link {
+  color: #f37b20;
+  font-size: 27px;
+  line-height: 32px;
+}
+
+
+ .department-sprite, .arrow-menu .icon-arrow, .arrow-menu.open-sub-menu .icon-arrow, .sub-menu-item-cat .checkbox, .sub-menu-item-cat .checkbox.checked, .sub-menu-item-cat:before, .disclaimer-lightbox a .icon-adega, .disclaimer-lightbox a .icon-automotivo, .disclaimer-lightbox a .icon-bebes, .disclaimer-lightbox a .icon-beleza-e-saude, .disclaimer-lightbox a .icon-brinquedos, .disclaimer-lightbox a .icon-cama-mesa-e-banho, .disclaimer-lightbox a .icon-cameras-e-filmadoras, .disclaimer-lightbox a .icon-casa-e-seguranca, .disclaimer-lightbox a .icon-dvds-e-blu-ray, .disclaimer-lightbox a .icon-eletrodomesticos, .disclaimer-lightbox a .icon-eletronicos, .disclaimer-lightbox a .icon-eletroportateis, .disclaimer-lightbox a .icon-esporte-e-lazer, .disclaimer-lightbox a .icon-ferramentas, .disclaimer-lightbox a .icon-games, .disclaimer-lightbox a .icon-informatica, .disclaimer-lightbox a .icon-instrumentos-musicais, .disclaimer-lightbox a .icon-livros, .disclaimer-lightbox a .icon-moda, .disclaimer-lightbox a .icon-moveis-e-decoracao, .disclaimer-lightbox a .icon-papelaria, .disclaimer-lightbox a .icon-pet-shop, .disclaimer-lightbox a .icon-produtos-sustentaveis, .disclaimer-lightbox a .icon-relogios, .disclaimer-lightbox a .icon-tablets, .disclaimer-lightbox a .icon-telefonia, .disclaimer-lightbox a .icon-utilidades-domesticas, .disclaimer-lightbox a:hover .icon-adega, .disclaimer-lightbox a:hover .icon-automotivo, .disclaimer-lightbox a:hover .icon-bebes, .disclaimer-lightbox a:hover .icon-beleza-e-saude, .disclaimer-lightbox a:hover .icon-brinquedos, .disclaimer-lightbox a:hover .icon-cama-mesa-e-banho, .disclaimer-lightbox a:hover .icon-cameras-e-filmadoras, .disclaimer-lightbox a:hover .icon-casa-e-seguranca, .disclaimer-lightbox a:hover .icon-dvds-e-blu-ray, .disclaimer-lightbox a:hover .icon-eletrodomesticos, .disclaimer-lightbox a:hover .icon-eletronicos, .disclaimer-lightbox a:hover .icon-eletroportateis, .disclaimer-lightbox a:hover .icon-esporte-e-lazer, .disclaimer-lightbox a:hover .icon-ferramentas, .disclaimer-lightbox a:hover .icon-games, .disclaimer-lightbox a:hover .icon-informatica, .disclaimer-lightbox a:hover .icon-instrumentos-musicais, .disclaimer-lightbox a:hover .icon-livros, .disclaimer-lightbox a:hover .icon-moda, .disclaimer-lightbox a:hover .icon-moveis-e-decoracao, .disclaimer-lightbox a:hover .icon-papelaria, .disclaimer-lightbox a:hover .icon-pet-shop, .disclaimer-lightbox a:hover .icon-produtos-sustentaveis, .disclaimer-lightbox a:hover .icon-relogios, .disclaimer-lightbox a:hover .icon-tablets, .disclaimer-lightbox a:hover .icon-telefonia, .disclaimer-lightbox a:hover .icon-utilidades-domesticas {
+    background: url("../images/departamentos.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* line 115, ../../src/sass/components/_department-menu.scss */
+.menu-left.category {
+  /* li.sub-menu-item:before {
+    background-image: none;
+  } */
+}
+/* line 116, ../../src/sass/components/_department-menu.scss */
+.menu-left.category .left-menu-item {
+  font-size: 18px;
+}
+/* line 123, ../../src/sass/components/_department-menu.scss */
+.menu-left .disabled {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+}
+/* line 126, ../../src/sass/components/_department-menu.scss */
+.menu-left a:hover {
+  color: #f37b20;
+}
+
+/* line 29, ../../src/sass/components/_department-menu.scss */
+.sub-menu {
+  margin-top: -5px;
+}
+
+/* line 33, ../../src/sass/components/_department-menu.scss */
+.menu-count {
+  color: #A5A5A5;
+  font-size: 12px;
+  width: 25px;
+}
+
+/* line 39, ../../src/sass/components/_department-menu.scss */
+ 
+
+/* line 49, ../../src/sass/components/_department-menu.scss */
+.arrow-menu {
+  -webkit-transition-property: rotate;
+  -moz-transition-property: rotate;
+  -o-transition-property: rotate;
+  transition-property: rotate;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  background-color: #E5E5E5; 
+  /*background-color: #f4f4f4;*/
+  display: block;
+  float: left;
+  height: 38px;
+  width: 38px;
+}
+/* line 59, ../../src/sass/components/_department-menu.scss */
+.arrow-menu .icon-arrow {
+  background-position: 0 -2360px;
+  height: 3px;
+  width: 14px;
+  display: inline-block;
+  margin: 16px 0 0 13px;
+}
+/* line 65, ../../src/sass/components/_department-menu.scss */
+.arrow-menu.open-sub-menu .icon-arrow {
+  background-position: 0 -2352px;
+  height: 8px;
+  width: 14px;
+  display: inline-block;
+  margin: 16px 0 0 13px;
+}
+/* line 71, ../../src/sass/components/_department-menu.scss */
+.arrow-menu.closed {
+  -webkit-transition-property: rotate;
+  -moz-transition-property: rotate;
+  -o-transition-property: rotate;
+  transition-property: rotate;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+/* line 79, ../../src/sass/components/_department-menu.scss */
+.sub-menu-item-cat {
+  border-bottom: 1px solid #E2E2E2;
+  height: 38px;
+  line-height: 30px;
+  position: relative;
+}
+/* line 85, ../../src/sass/components/_department-menu.scss */
+.sub-menu-item-cat .checkbox {
+  background-position: 0 -2397px;
+  height: 21px;
+  width: 21px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  margin-top: -10px;
+}
+/* line 92, ../../src/sass/components/_department-menu.scss */
+.sub-menu-item-cat .checkbox.checked {
+  background-position: 0 -2376px;
+  height: 21px;
+  width: 21px;
+  display: block;
+}
+/* line 97, ../../src/sass/components/_department-menu.scss */
+.sub-menu-item-cat .sub-menu-link {
+  color: #1a75ce;
+  max-width: 70%;
+  float: left;
+  margin-left: 50px; 
+    font-size: 14px;
+}
+/* line 104, ../../src/sass/components/_department-menu.scss */
+.sub-menu-item-cat:before {
+  background-position: 0 -2373px;
+  height: 3px;
+  width: 14px;
+  display: block;
+  content: " ";
+  left: 11px;
+  position: absolute;
+  top: 18px;
+}
+
+/* line 115, ../../src/sass/components/_department-menu.scss */
+.menu-left.category {
+  /* li.sub-menu-item:before {
+    background-image: none;
+  } */
+}
+
+
+
+/* line 3, ../../src/sass/components/_department-menu.scss */
+.menu-title-cat {
+  background-color: #E5E5E5;
+  /*  border-left: 1px solid #cbcbcb;*/
+    border-left: 1px solid #f4f4f4;
+    display: block;
+    font-weight: 400;
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 5px;
+    margin-left: 38px;
+    max-width: 100%;
+    overflow: hidden;
+}
+/* line 13, ../../src/sass/components/_department-menu.scss */
+.menu-title-cat .left-menu-item {
+  border-left: 1px solid #F8F8F8;
+  color: #1a75ce;
+  height: 38px;
+  padding-left: 10px;
+  float: left;
+  max-width: 80%;
+}
+/* line 22, ../../src/sass/components/_department-menu.scss */
+.menu-title-cat.no-subcategory {
+  -webkit-transition-property: margin;
+  -moz-transition-property: margin;
+  -o-transition-property: margin;
+  transition-property: margin;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-bottom: 5px;
+}
+.menu-title-cat {
+    font-weight: 400;
+    line-height: 38px;
+}
+.menu-name-cat {
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+    overflow: hidden;
+    padding-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.main-content-cat {
+    float: right;
+    margin-right: 0;
+    width: 79.7826%;
+}
+
+
+.breadcrumb .home:before {
+    display: none;
+}
+.breadcrumb-item:before {
+    background-position:0 -6367px;
+    content: " ";
+    display: inline-block;
+    float: left;
+    height: 22px;
+    width: 14px;
+}
+
+.sub-menu-item-cat .checkbox.checked {
+	background-position: 0 -2610px !important;
+    display: block;
+    height: 21px;
+    width: 21px;
+}
+ .sub-menu-item-cat .checkbox.checked{
+    background: url("../images/departamentos2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/*
+.menu-name {
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+    overflow: hidden;
+    padding-left: 6px;
+    padding-right: 5px;
+    padding-top: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+  */
+  .todo-shopping .menu-left-wrapper .title {
+    font-size: 26px;
+}
+.todo-shopping .menu-left-wrapper .item a {
+    font-size: 18px;
+}
+.todo-shopping .item a {
+    color: #1a75ce;
+    display: block;
+    font-size: 15px;
+    height: 100%;
+    padding: 8px 0 7px 42px;
+    position: relative;
+    width: 100%;
+} 
+.titcatm{ 
+    color: #1B59A6;
+	font-family: VERDANA; 
+    font-size: 21px;
+    font-weight: bold; 
+}
+.cat-title {
+    color: #5b91d8;
+    display: block;
+    font-size: 19px;
+  /*  font-weight: 600; */
+	/*text-align:center;*/
+	margin:7px;
+	width:64%;
+}

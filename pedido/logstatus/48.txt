@@ -1,0 +1,3 @@
+16/02/2018 10:58:33 - Pedido recebido com sucesso
+16/02/2018 10:58:34 - Email de pedido realizado enviado para admin@admin.com.br
+16/02/2018 10:58:35 - Copia do email enviado para administrador suportevipcom@gmail.com

@@ -1,0 +1,10 @@
+vipexpress LIVE 1.1.7
+
+22/08/18 - correção erro ao buscar anúncio
+09/08/18 - adição de filtro de categorias página da loja
+27/07/18 - correção envio de mensagem ao usuário pelo vipmin
+24/07/18 - correção gerenciamento de estoque único
+24/07/18 - correção informar apenas "valor por" vipmin/adminanunciante
+23/07/18 - correção diversos erros
+
+ 

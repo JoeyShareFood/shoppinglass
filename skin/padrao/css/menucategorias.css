@@ -1,0 +1,877 @@
+ 
+
+.site-menu-container {
+  height: 59px;
+  margin-top:20px;
+  color: #000;
+  font-family: Open Sans,Arial,Helvetica,sans-senif,SimSun,"宋体";
+  font-size: 75%;
+  line-height: 1.3;
+}
+
+.site-menu {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #333333;
+  float: left;
+  height: 356px;
+  margin-top: -0.7%;
+  position: relative;
+  width: 240px;
+  z-index: 30;
+}  
+.menu-item.eletronicos {
+  height: 25px;
+  margin-left: 10px;
+  width: 230px;
+}
+.site-menu.fixed {
+    position: fixed;
+    top: 3px;
+}
+.site-menu.animate {
+    transition: top 0.3s ease-out 0s;
+}
+
+ 
+.menu-item {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  float: none;
+  height: 35px;
+  position: relative;
+  text-align: left;
+  width: 10.9%;
+}
+@-moz-document url-prefix(){
+.menu-item {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;.site-menu {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #333333;
+  float: left;
+  height: 364px;
+  margin-top: -0.6%;
+  position: relative;
+  width: 240px;
+  z-index: 30;
+}
+  -moz-border-top-colors: none;
+  float: none;
+  height: 35px;
+  position: relative;
+  text-align: left;
+  width: 10.9%;
+  margin-bottom: 3px;
+  margin-bottom: 3px;
+}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.menu-item {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  float: none;
+  height: 35px;
+  position: relative;
+  text-align: left;
+  width: 10.9%;
+  margin-bottom: 3px;
+}.site-menu {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #333333;
+  float: left;
+  height: 364px;
+  margin-top: -0.6%;
+  position: relative;
+  width: 240px;
+  z-index: 30;.site-menu {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #333333;
+  float: left;
+  height: 364px;
+  margin-top: -0.6%;
+  position: relative;
+  width: 240px;
+  z-index: 30;
+}
+}
+}
+ 
+ /*  ie 8 
+.menu-item{
+	border-top-color:#124b8e\0/;
+	border-right-color:#124b8e\0/;
+	border-bottom-color:currentColor\0/;
+	border-left-color:#2e6faf\0/;
+	border-top-width:1px\0/;
+	border-right-width:1px\0/;
+	border-bottom-width:0px\0/;
+	border-left-width:0px\0/;
+	border-top-style:solid\0/;
+	border-right-style:solid\0/;
+	border-left-style:solid\0/;
+	border-bottom-style:none\0/;
+	float: left\0/;
+	height: 57px\0/;
+	position: relative\0/;
+	text-align: center\0/;
+	width: 10.9%\0/; 
+	background-image:none\0/;
+	background-attachment:scroll\0/;
+	background-repeat:repeat\0/;
+	background-position-x:0%\0/;
+	background-position-y:0%\0/;
+	background-size:auto\0/;
+	background-origin:padding-box\0/;
+	background-clip:border-box\0/;
+	background-color:rgb(25, 93, 158)\0/; 
+}
+ */
+ 
+ 
+
+
+.menu-item:first-child {
+    border-left: 0 none;
+    position: static;
+}
+.menu-item.last {
+    border-right: 0 none;
+    float: none;
+    overflow: hidden;
+    width: auto;
+}
+
+.menu-item .icon {
+    margin: 8px auto 0;
+}
+
+.menu-item.active .submenu-wrapper {
+    display: block;
+}
+.menu-item.active .submenu-border {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.menu-item.todo-shopping {
+    width: 215px;
+}
+.menu-item.todo-shopping .menu-item-link {
+    cursor: pointer;
+    font-size: 17px;
+   line-height: 57px; 
+}
+.menu-item.todo-shopping .icon-wm-chevron-sign-down {
+    color: #F6B428;
+}
+.menu-item.eletronicos .icon {
+    background-position: 0 -5666px;
+    display: block;
+    height: 28px;
+    width: 28px;
+	 outline: medium none !important;
+    text-decoration: underline  !important;
+}
+
+ 
+.menu-item.eletronicos.active .icon {
+    background-position: 0 -5520px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.eletrodomesticos .icon {
+    background-position: 0 -4728px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.eletrodomesticos.active .icon {
+    background-position: 0 -4539px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.eletroportateis .icon {
+    background-position: 0 -4159px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.eletroportateis.active .icon {
+    background-position: 0 -4045px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.informatica .icon {
+    background-position: 0 -5696px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.informatica.active .icon {
+    background-position: 0 -5578px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.esporte-e-fitness .icon {
+    background-position: 0 -3081px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.esporte-e-fitness.active .icon {
+    background-position: 0 -2627px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.beleza-e-saude .icon {
+    background-position: 0 -4309px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.beleza-e-saude.active .icon {
+    background-position: 0 -3987px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.celulares-e-telefones .icon {
+    background-position: 0 -5812px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.celulares-e-telefones.active .icon {
+    background-position: 0 -5754px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.bebes-e-criancas .icon {
+    background-position: 0 -5636px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.bebes-e-criancas.active .icon {
+    background-position: 0 -5490px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.cameras .icon {
+    background-position: 0 -4509px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.cameras.active .icon {
+    background-position: 0 -4451px;
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.menu-item.seasonal div {
+    margin-top: 10px;
+}
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+.menu-item {
+    width: 100%;
+}
+}
+@media (min-width: 83.4375em) {
+.menu-item {
+    width: 100%;
+}
+}
+ 
+.submenu-wrapper {
+  background: none repeat scroll 0 0 #000;
+  display: none;
+  float: left;
+  height: 537px;
+  left: 0;
+  margin-left: 100%;
+  padding-top: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  z-index: 10;
+  margin-top: -15%;
+}
+
+.todo-shopping .submenu-border {
+    position: relative;
+}
+.todo-shopping .submenu-border:before {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FFFFFF;
+    border-style: solid;
+    border-width: 10px;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    width: 0;
+}
+.todo-shopping .submenu-border:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FFFFFF;
+    border-style: solid;
+    border-width: 10px;
+    bottom: auto;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 20px;
+    position: absolute;
+    top: -19px;
+    width: 0;
+}
+.todo-shopping .separator {
+    background: none repeat scroll 0 0 #D7D7D7;
+    border: 0 none;
+    float: left;
+    height: 1px;
+    min-width: 200px;
+    width: 100%;
+}
+.todo-shopping .menu-left-wrapper {
+    float: left;
+    height: 460px;
+    margin-right: 2.05761%;
+    padding-left: 20px;
+    width: 23.4568%;
+}
+.todo-shopping .menu-left-wrapper .separator {
+    left: 90%;
+}
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+.todo-shopping .menu-left-wrapper {
+    float: left;
+    margin-right: 1.08696%;
+    width: 22.5%;
+}
+.todo-shopping .menu-left-wrapper .title {
+    font-size: 20px;
+}
+.todo-shopping .menu-left-wrapper .item a {
+    font-size: 17px;
+}
+}
+@media (min-width: 83.4375em) {
+.todo-shopping .menu-left-wrapper {
+    float: left;
+    margin-right: 1.08696%;
+    width: 15.5%;
+}
+.todo-shopping .menu-left-wrapper .title {
+    font-size: 20px;
+}
+.todo-shopping .menu-left-wrapper .item a {
+    font-size: 15px;
+}
+}
+.todo-shopping .menu-right-wrapper {
+    float: right;
+    height: 460px;
+    margin-right: 0;
+    padding-right: 20px;
+    width: 23.4568%;
+}
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+.todo-shopping .menu-right-wrapper {
+    float: right;
+    margin-right: 0;
+    width: 22.5%;
+}
+.todo-shopping .menu-right-wrapper .title {
+    font-size: 26px;
+}
+.todo-shopping .menu-right-wrapper .item a {
+    font-size: 18px;
+}
+}
+@media (min-width: 83.4375em) {
+.todo-shopping .menu-right-wrapper {
+    float: right;
+    margin-right: 0;
+    width: 22.5%;
+}
+.todo-shopping .menu-right-wrapper .title {
+    font-size: 26px;
+}
+.todo-shopping .menu-right-wrapper .item a {
+    font-size: 18px;
+}
+}
+.todo-shopping .menu-center-wrapper {
+    float: left;
+    height: 460px;
+    margin-right: 2.05761%;
+    width: 48.9712%;
+}
+.todo-shopping .menu-center-wrapper .list {
+    min-width: 234px;
+    width: 50%;
+}
+.todo-shopping .menu-center-wrapper .separator {
+    width: 40%;
+}
+@media (min-width: 78.75em) and (max-width: 83.375em) {
+.todo-shopping .menu-center-wrapper {
+    float: left;
+    margin-right: 1.08696%;
+    width: 52.8261%;
+}
+.todo-shopping .menu-center-wrapper .item a {
+    font-size: 18px;
+    padding-top: 7px;
+}
+}
+@media (min-width: 83.4375em) {
+.todo-shopping .menu-center-wrapper {
+    float: left;
+    margin-right: 1.08696%;
+    width: 52.8261%;
+}
+.todo-shopping .menu-center-wrapper .item a {
+    font-size: 18px;
+    padding-top: 7px;
+}
+}
+.todo-shopping .list {
+    float: left;
+    padding: 15px 5px 20px;
+}
+.todo-shopping .auto-e-pneus .title {
+    color: #265D95;
+}
+.todo-shopping .tecnologia .title {
+    color: #BA3737;
+}
+.todo-shopping .casa .title {
+    color: #76A617;
+}
+.todo-shopping .cultura-e-lazer .title {
+    color: #FE9003;
+}
+.todo-shopping .bebes-e-criancas .title {
+    color: #2e6f57;
+	margin-bottom:11px;
+}
+.todo-shopping .moda-e-estilo .title {
+    color: #6E5CC0;
+}
+.todo-shopping .dicas-ideias .title {
+    color: #666666;
+}
+.todo-shopping .title {
+    font-size: 23px;
+    padding-bottom: 9px;
+}
+.todo-shopping .item {
+    min-height: 32px;
+}
+.todo-shopping .item a {
+    color: #1A75CE;
+    display: block;
+    font-size: 15px;
+    height: 100%;
+    padding: 0 0 7px 32px;
+    position: relative;
+    width: 100%;
+}
+.todo-shopping .item a:hover {
+    color: #F37B20;
+}
+.todo-shopping .item-icon {
+    height: 36px;
+    left: 0;
+    margin-right: 5px;
+    position: absolute;
+    top: 0;
+    width: 36px;
+}
+.todo-shopping .menu-top-wrapper {
+    height: inherit;
+    overflow: hidden;
+}
+.todo-shopping .menu-bottom-wrapper {
+    bottom: 18px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.todo-shopping .menu-bottom-wrapper ul {
+    margin: 0 auto;
+    width: 600px;
+}
+.todo-shopping .border {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #D7D7D7;
+    border-image: none;
+    border-style: solid none;
+    border-width: 1px;
+}
+.todo-shopping .bottom-item {
+    display: inline-block;
+}
+.todo-shopping .bottom-item a {
+    color: #999999;
+}
+.todo-shopping .bottom-item a:hover {
+    color: #F37B20;
+}
+.todo-shopping .bottom-item.last {
+    float: right;
+}
+.todo-shopping .bottom-item:first-child {
+    float: left;
+}
+.todo-shopping .bottom-item.spacing {
+    margin-right: 37px;
+}
+.todo-shopping .item-automotivo .item-icon {
+    background-position: 0 -2450px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-pneus .item-icon {
+    background-position: 0 -814px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-cameras .item-icon {
+    background-position: 0 -1972px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-eletronicos .item-icon {
+    background-position: 0 -2819px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-games .item-icon {
+    background-position: 0 -2010px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-informatica .item-icon {
+    background-position: 0 -2657px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-telefonia .item-icon {
+    background-position: 0 -2915px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-tablets .item-icon {
+    background-position: 0 -2765px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-cameba .item-icon {
+    background-position: 0 -3141px;
+    display: inline-block;
+    height: 37px;
+    width: 36px;
+}
+.todo-shopping .item-moveis-decoracao .item-icon {
+    background-position: 0 -2412px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-eletrodomesticos .item-icon {
+    background-position: 0 -2268px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-eletroportateis .item-icon {
+    background-position: 0 -2124px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-ferramentas .item-icon {
+    background-position: 0 -1232px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-casa-seguranca .item-icon {
+    background-position: 0 -2048px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-pet-shop .item-icon {
+    background-position: 0 -1520px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-produtos-sustentaveis .item-icon {
+    background-position: 0 -1800px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-instrumentos-musicais .item-icon {
+    background-position: 0 -1762px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-revelacao-digital .item-icon {
+    background-position: 0 -1694px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-ud .item-icon {
+    background-position: 0 -2727px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-dvds .item-icon {
+    background-position: 0 -1656px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-esportes .item-icon {
+    background-position: 0 -1384px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-livros .item-icon {
+    background-position: 0 -2374px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-papelaria .item-icon {
+    background-position: 0 -3017px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-viagens .item-icon {
+    background-position: 0 -2162px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-bebes .item-icon {
+    background-position: 0 -2589px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-brinquedos .item-icon {
+    background-position: 0 -2306px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-beleza .item-icon {
+    background-position: 0 -1876px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-moda .item-icon {
+    background-position: 0 -2520px;
+    display: inline-block;
+    height: 37px;
+    width: 36px;
+}
+.todo-shopping .item-relogios .item-icon {
+    background-position: 0 -1194px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.todo-shopping .item-adega .item-icon {
+    background-position: 0 -1838px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}.submenu-default .item {
+  height: 30px;
+  line-height: 33px;
+}
+.todo-shopping .item-ideias-e-muito-mais .item-icon {
+    background-position: 0 -2230px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.submenu-default.submenu-wrapper {
+  height: 350px;
+  width: 410px;
+  position: absolute;
+}
+.submenu-default .submenu-border {
+    position: relative;
+}
+.submenu-default a {
+    color: #1A75CE;
+}
+.submenu-default a:hover {
+    color: #e7274b;
+}
+.submenu-default .categories {
+  float: left;
+  height: 290px;
+  padding: 5px 0 0 20px;
+  width: 242px;
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: top;
+  width: 160px;
+}
+
+.submenu-default .picture {
+    float: right;
+    height: 333px;
+    margin: 15px;
+    width: 333px;
+}
+.submenu-default .picture img {
+    display: block;
+    height: 333px;
+    width: 333px;
+}
+.submenu-default .item {
+  height: 30px;
+  line-height: 33px;
+  position: relative;
+  width: 186px;
+}
+.submenu-default .item a {
+    background-color: rgba(0, 0, 0, 0);
+}
+.submenu-default .item:before {
+    background: none repeat scroll 0 0 #e7274b;
+    content: " ";
+    display: block;
+    float: left;
+    height: 14px;
+    left: 8px;
+    margin-right: 17px;
+    margin-top: 9.5px;
+    position: relative;
+}
+.submenu-default .item:hover a {
+    background-color: #e7274b;
+    color: #000000;
+    display: block;
+}
+.submenu-default .item:hover:before {
+    background: none repeat scroll 0 0 #000000;
+    content: " ";
+    display: block;
+    float: left;
+    height: 14px;
+    left: 8px;
+    margin-right: 17px;
+    margin-top: 9.5px;
+    position: relative;
+}
+.submenu-default .footer {
+    border-top: 1px solid #EAE8E8;
+    bottom: 0;
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.submenu-align-right .submenu-border {
+    position: relative;
+}
+.submenu-align-right .submenu-border:before {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FFFFFF;
+    border-style: solid;
+    border-width: 10px;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 440px;
+    position: absolute;
+    top: -20px;
+    width: 0;
+}
+.submenu-align-right .submenu-border:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FFFFFF;
+    border-style: solid;
+    border-width: 10px;
+    bottom: auto;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 440px;
+    position: absolute;
+    top: -19px;
+    width: 0;
+}
+.submenu-align-right.submenu-wrapper {
+    left: -388px;
+} 
+
+.menu-item.titulo {
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  background: #333333;
+  margin-top: -3%;
+}
+
+.menu-item.titulo > p {
+  margin-left: 5%;
+  margin-top: 3%;
+  padding-top: 3%;
+}
+
+#search-dropdown-box > option {
+  background: #f5f5f5 none repeat scroll 0 0;
+  color: #696969;
+  font-family: inherit;
+  padding: 3px 13px;
+}

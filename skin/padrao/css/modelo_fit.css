@@ -1,0 +1,164 @@
+.modelo_fit{
+ display:block !important; 
+}
+.titulo_resumido_modelo_padrao{
+	display:none; 
+}
+.titulo_resumido_modelo_classic {
+  display: block !important;
+  text-align: left;
+  margin-left: 14%;
+  margin-top: 2%;
+  margin-bottom: -5%;
+}
+
+.review_tipo {
+  display: block !important;
+  margin-left: 13%;
+  margin-top: -8%;
+}
+
+.shelf-price{
+	display:none; 
+}
+.shelf-container .shelf-item {
+    padding: 0px; 
+}
+.bordalist {
+    width: 76%; 
+}
+
+.shelf-horizontal .shelf-item .right-align {
+    width: 102%;
+	float: left;
+	margin-left:4px;
+}
+
+.shelf-horizontal .shelf-item figure {
+    width: 100%;
+	text-align:  center;
+	text-align: -moz-center;
+	text-align:  -webkit-center;
+}
+
+.shelf-container .shelf-item figure {
+    height: 251px;  
+}
+.shelf-container .shelf-item figure img {
+    max-height: 242px;
+    max-width: 235px;
+}
+.home-list .shelf-item { 
+    height: 274px; 
+}
+.shelf-container .payment-price-old-home .label, .shelf-container .payment-price-old-home del {
+    display: none;
+}
+.shelf-container .product-title, .shelf-container .payment-price-old-home, .shelf-container .payment-sell-home, .shelf-container .payment-installment {
+    clear: both; 
+	float:unset;
+}
+.shelf-horizontal .payment-price-home {
+    font-size: 21px; 
+}
+.payment-sell-home .payment-currency {
+    font-size: 12px; 
+    top: 2px;
+}
+.payment-price-home { 
+    left: 20px;
+}
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item { 
+    padding-bottom: 11px; 
+	height:367px;
+}
+.bar-status {
+   /* border-top: 1px solid #dedede;*/
+    color: #666666;
+    font-family: arial;
+    margin-top: 7px;
+    padding: 5px;
+}
+
+.valorboxca {
+  color: #333333;
+  font-family: arial;
+  font-size: 12px;
+  height: 45px;
+  width: 120px;
+  font-weight: bold;
+}
+
+.setde {
+  height: 22px;
+  line-height: 30px;
+  margin-left: 13%;
+  margin-top: -8px;
+  text-decoration: line-through;
+}
+
+.item-de {
+    color: #333333 !important;
+}
+.item-de {
+    color: #ff7300;
+    font-family: arial; 
+}
+
+ 
+.item-por {
+    color: #1a75ce;
+    font-family: arial;
+    font-size: 18px;
+}
+
+.descontoboxca {
+    font-family: arial;
+    font-size: 11px;
+    padding: 0 0 0 10px;
+    width: 106px;
+}
+
+.itemboxca {
+    font-family: arial;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+.vendidoboxca {
+    font-family: arial;
+    font-size: 11px;
+    padding: 0 0 0 5px;
+}
+
+.comprarboxca {
+    color: #666666;
+    font-family: arial;
+    padding-right: 0;
+    text-align: right;
+}
+
+ 
+.btn-odetailferta {
+   background: -moz-linear-gradient(center top , #e89e26 0%, #ffbb0a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 16px;
+    height: 36px !important;
+    padding: 6px 18px;
+    text-decoration: none;
+}
+
+ 
+th, td { 
+    padding: 0; 
+}
+
+.menu-title-link {
+  color: #333;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 20%;
+}
+ 

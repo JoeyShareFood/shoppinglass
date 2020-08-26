@@ -1,0 +1,21 @@
+
+body {
+	font: 0.8em Sans #333;
+}
+
+table tr:nth-child(odd) {
+	background: #eee;
+	font-family:arial;
+}
+
+table tr:nth-child(1) { 
+	background: #ddd;
+	font-size:11px;
+	font-family:arial;
+}
+
+table td {
+	padding: 3px;
+}
+
+

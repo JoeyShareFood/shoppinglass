@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /vipmin/
+Disallow: /log/
+Disallow: /lojista/
+Disallow: /setup/
+Disallow: /adminanunciante/
+Disallow: /agregadores/
+Disallow: /paths/
+ 

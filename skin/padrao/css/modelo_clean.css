@@ -1,0 +1,213 @@
+ .titulo_resumido_modelo_padrao{
+	display:none; 
+}
+.titulo_resumido_modelo_classic{
+	display:block !important;
+	text-align:center !important;
+}
+.review_tipo {
+  display: block !important;
+  margin-top: 15%;
+  position: relative;
+  margin-left: 20%;
+}
+.payment-sell-home .label{
+	display:none !important;
+}
+
+.shelf-price {
+	color: #545454;
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 10px;
+	text-align: center;
+}
+.bordalist {
+    width: 100%; 
+}
+
+.shelf-horizontal .shelf-item .right-align {
+  float: left;
+  margin-left: 11px;
+  margin-top: -10%;
+  width: 200px;
+}
+
+.shelf-horizontal .shelf-item figure {
+    width: 100%;
+	text-align:  center;
+	text-align: -moz-center;
+	text-align:  -webkit-center;
+}
+
+.shelf-container .shelf-item figure {
+    height: 251px;  
+}
+.shelf-container .shelf-item figure img {
+  max-height: 230px;
+  max-width: 230px;
+  margin-top: 0;
+}
+.home-list .shelf-item { 
+    height: 230px;
+    padding: 0 !important;
+    position: relative;
+}
+
+.shelf-container .payment-price-old-home .label, .shelf-container .payment-price-old-home del {
+    display: none;
+}
+.shelf-container .product-title, .shelf-container .payment-price-old-home, .shelf-container .payment-sell-home, .shelf-container .payment-installment {
+    clear: both; 
+	float:unset;
+}
+.shelf-horizontal .payment-price-home {
+    font-size: 18px; 
+    font-family: Open Sans,Arial,Helvetica,sans-senif,SimSun;
+    margin-left: 15px;
+}
+.payment-sell-home .payment-currency {
+    font-size: 18px; 
+    top: 0;
+}
+.payment-price-home { 
+    left: 30px;
+}
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+  border: 1px solid transparent;
+  margin-left: 9px;
+  position: relative;
+}
+
+ .owl-item {
+    float: left;
+    height: 425px;
+    margin-bottom: 15px;
+    width: 99%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+    border-top: 1px solid rgba(160,160,160,0.2);
+}
+
+.bar-status {
+   /* border-top: 1px solid #dedede;*/
+    color: #666666;
+    font-family: arial;
+    margin-top: 7px;
+    padding: 5px;
+}
+
+.valorboxca {
+    color: #1a75ce;
+    font-family: arial;
+    font-size: 11px;
+    height: 45px;
+    width: 120px;
+	text-align:center;
+}
+
+.setde {
+    height: 22px;
+    line-height: 30px;
+    margin-top: -8px;
+}
+
+.item-de {
+    color: #104064 !important;
+}
+.item-de {
+    color: #ff7300;
+    font-family: arial; 
+}
+
+ 
+.item-por {
+    color: #1a75ce;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.descontoboxca {
+    font-family: arial;
+    font-size: 11px;
+    padding: 0 0 0 10px;
+    width: 106px;
+}
+
+.itemboxca {
+    font-family: arial;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+.vendidoboxca {.NameOffer {
+  font-family: Open Sans,Arial,Helvetica,sans-senif,SimSun;
+  height: 50px;
+}
+    font-family: arial;
+    font-size: 11px;
+    padding: 0 0 0 5px;
+}
+
+.comprarboxca {
+    color: #666666;
+    font-family: arial;
+    padding-right: 0;
+    text-align: right;
+}
+
+ 
+.btn-odetailferta {
+   background: -moz-linear-gradient(center top , #e89e26 0%, #ffbb0a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 16px;
+    height: 36px !important;
+    padding: 6px 18px;
+    text-decoration: none;
+}
+
+ 
+th, td { 
+    padding: 0; 
+}
+
+.owl-item-title {
+	background: #f8f8f8;
+	font-weight: bold;
+	font-family: 'Arvo', serif;
+	font-size: 16.5px;
+	line-height: 40px;
+	padding-left: 25px;
+	width: 1170px;
+	text-transform: uppercase;
+	padding-left: 28px;
+	padding-top: 17px;
+}
+
+.VendidosProduto {
+    right: 0;
+    top: 28px;
+  	 font-size: 13px;
+    font-weight: normal;
+    margin-left: 37px;
+}
+
+.NameOffer {
+	color: #999;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 16px;
+	text-align: center;
+	text-transform: lowercase;
+	overflow: hidden;
+}
